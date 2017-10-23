@@ -6,8 +6,10 @@ using System.Threading.Tasks;
 
 namespace TextExtract.Models
 {
-    public class Document
+    public class Scan
     {
-        
+        public Guid Id { get; set; }
+        public string Title { get; set; }
+        public string Text { get; set; }
     }
 }
